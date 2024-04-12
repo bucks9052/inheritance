@@ -1,15 +1,23 @@
 #pragma once
 #ifndef vehicle_h
 #define vehicle_h
-#include "personalLibv1.4.h"
+
+
+
+#include <string>
+#include <iostream>
+
+using namespace std;
+
 class vehicle {
+
 protected:
 	string name;
 	int productionYear = 0;
 
 public:
-	void set(string, int);
-	void displayInfo();
+	void setVehicleInfo(string, int);
+	void displayVehicleInfo();
 	string getName();
 	int getProductionYear();
 

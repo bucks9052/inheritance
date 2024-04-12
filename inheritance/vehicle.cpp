@@ -1,15 +1,15 @@
 #include "vehicle.h"
 
-void vehicle::set(string n, int prod)
+void vehicle::setVehicleInfo(string n, int prod)
 {
 	name = n;
 	productionYear = prod;
 }
 
-void vehicle::displayInfo()
+void vehicle::displayVehicleInfo()
 {
 	cout << "\nNAME: " << name;
-	cout << "PRODUCTION YEAR: " << productionYear;
+	cout << "\nPRODUCTION YEAR: " << productionYear;
 }
 
 string vehicle::getName()

@@ -13,7 +13,9 @@ void truck::setTowCap(int tow)
 
 
 
-void truck::displayTowCap()
+void truck::displayTruckInfo()
 {
+    cout << "\nManufacturer: " << vehicle::getName();
+    cout << "\nYear: " << vehicle::getProductionYear();
     cout << "\nTOW CAPACITY: " << towCap;
 }

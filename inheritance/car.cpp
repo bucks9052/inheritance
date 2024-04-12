@@ -13,5 +13,7 @@ void car::setDoorCount(int dcount)
 
 void car::displayCarInfo()
 {
-	cout << "\nAMOUNT OF CAR DOORS: " << doorCount;
+	cout << "\nManufacturer: " << vehicle::getName();
+	cout << "\nYear: " << vehicle::getProductionYear();
+	cout << "\nNUMBER OF CAR DOORS: " << doorCount;
 }

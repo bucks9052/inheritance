@@ -3,18 +3,18 @@ Oliver Moore
 Personal c++ school lib
 Version 1.5
 */
-
-
-
 #pragma once
+
+
+
 #include <iostream>
 #include <iomanip>
-#include <string>
 #include <random>
 #include <cmath>
 #include <fstream>				//file IO
 #include <vector>
 #include <Windows.h>			//sleep command
+
 using namespace std;
 
 int endProgram() {

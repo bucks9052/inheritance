@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="car.cpp" />
     <ClInclude Include="car.h" />
+    <ClInclude Include="personalLibv1.4.h" />
     <ClInclude Include="vehicle.h" />
     <ClInclude Include="truck.h" />
   </ItemGroup>
